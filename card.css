@@ -1,0 +1,30 @@
+
+.form-container{
+    background-color: rgb(240, 75, 5);
+    height: 100vh;
+    box-shadow: 0 10px 10px black;
+    color: white;
+}
+.card{
+    box-shadow: 5px 5px 10px rgb(240, 75, 5);
+}
+.card-delete{
+    float:right;
+    width: 25px;
+    background-color: rgb(194, 191, 187);
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+.close{
+    text-align: right;
+}
+.card-delete:hover{
+    background-color: red;
+    color: white;
+    
+}
+#error{
+    display: none;
+    color: white;
+}
